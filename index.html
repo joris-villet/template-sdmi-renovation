@@ -26,6 +26,7 @@
 
     <!--====== tailwind css ======-->
     <link rel="stylesheet" href="assets/css/tailwind.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
 
 </head>
@@ -40,39 +41,39 @@
                 <div class="row">
                     <div class="w-full">
                         <nav class="flex items-center justify-between navbar navbar-expand-md">
-                            <a class="mr-4 navbar-brand" href="index.html">
-                                <img src="assets/images/logo.svg" alt="Logo">
+                            <a class="mr-4 navbar-brand" href="/">
+                                <img src="assets/images/SmallLogo.png" alt="Logo" style="width: 150px;">
                             </a>
-
+    
                             <button class="block navbar-toggler focus:outline-none md:hidden" type="button" data-toggle="collapse" data-target="#navbarOne" aria-controls="navbarOne" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="toggler-icon"></span>
                                 <span class="toggler-icon"></span>
                                 <span class="toggler-icon"></span>
                             </button>
-
+    
                             <!-- justify-center hidden md:flex collapse navbar-collapse sub-menu-bar -->
                             <div class="absolute left-0 z-30 hidden w-full px-5 py-3 duration-300 bg-white shadow md:opacity-100 md:w-auto collapse navbar-collapse md:block top-100 mt-full md:static md:bg-transparent md:shadow-none" id="navbarOne">
                                 <ul class="items-center content-start mr-auto lg:justify-center md:justify-end navbar-nav md:flex">
                                     <!-- flex flex-row mx-auto my-0 navbar-nav -->
                                     <li class="nav-item active">
-                                        <a class="page-scroll" href="#home">HOME</a>
+                                        <a class="page-scroll text-sm decoration-cyan-500" href="#home">ACCUEIL</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#service">SERVICES</a>
+                                        <a class="page-scroll text-sm" href="#service">NOS REFERENCES</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#pricing">PRICING</a>
+                                        <a class="page-scroll text-sm" href="#pricing">NOS EXPERTISES</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#testimonial">Testimonial</a>
+                                        <a class="page-scroll text-sm" href="#testimonial">NOTRE PHILOSOPHIE</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#contact">CONTACT</a>
+                                        <a class="page-scroll text-sm" href="#contact">CONTACT</a>
                                     </li>
                                 </ul>
                             </div>
-
-                            <div class="items-center justify-end hidden navbar-social lg:flex">
+    
+                            <!-- <div class="items-center justify-end hidden navbar-social lg:flex">
                                 <span class="mr-4 font-bold text-gray-900 uppercase">FOLLOW US</span>
                                 <ul class="flex footer-social">
                                     <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
@@ -80,23 +81,23 @@
                                     <li><a href="#"><i class="lni-instagram-original"></i></a></li>
                                     <li><a href="#"><i class="lni-linkedin-original"></i></a></li>                                  
                                 </ul>
-                            </div>
+                            </div> -->
                         </nav> <!-- navbar -->
                     </div>
                 </div> <!-- row -->
             </div> <!-- container -->
         </div> <!-- navgition -->
-
-        <div id="home" class="relative z-10 header-hero" style="background-image: url(assets/images/header-bg.jpg)">
+    
+        <div id="home" class="relative z-10 header-hero">
             <div class="container">
                 <div class="justify-center row">
                     <div class="w-full lg:w-5/6 xl:w-2/3">
                         <div class="pt-48 pb-64 text-center header-content">
-                            <h3 class="mb-5 text-3xl font-semibold leading-tight text-gray-900 md:text-5xl">Handcrafted Landing Page for Startups and SaaS Businesses</h3>
-                            <p class="px-5 mb-10 text-xl text-gray-700">A simple, customizable, and, beautiful SaaS business focused landing page to make your project closer to launch!</p>
+                            <h3 class="mb-5 text-3xl font-semibold leading-tight text-gray-900 md:text-5xl">SDMI PLOMBERIE & RENOVATION</h3>
+                            <p class="px-5 mb-10 text-xl text-gray-700">Depuis 2015 nous nous efforçons de répondre au plus près des demandes de nos clients. Du travail de qualité pour vous accompagner dans vos projets d'une vie. Nous mettons notre savoir faire à votre service. Passionnés de notre métier, n'hésitez pas à nous faire confiance. </p>
                             <ul class="flex flex-wrap justify-center">
                                 <li><a class="mx-3 main-btn gradient-btn" href="javascript:void(0)">GET IN TOUCH</a></li>
-                                <li><a class="mx-3 main-btn video-popup" href="https://www.youtube.com/watch?v=r44RKWyfcFw">WATCH THE VIDEO <i class="ml-2 lni-play"></i></a></li>
+                                <li><a class="mx-3 main-btn video-popup" href="/assets/videos/test.mov">WATCH THE VIDEO <i class="ml-2 lni-play"></i></a></li>
                             </ul>
                         </div> <!-- header content -->
                     </div>
@@ -189,56 +190,31 @@
             <div class="justify-center row">
                 <div class="w-full mx-4 lg:w-1/2">
                     <div class="pb-10 text-center section-title">
-                        <h4 class="title">Our Pricing</h4>
-                        <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+                        <h4 class="title">Nos expertises</h4>
+                        <p class="text">Dans la rénovation de l'habitat pour votre confort et bien être</p>
+                       
+                        
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
-            <div class="justify-center row">
+            <div class="cards justify-center row">
                 <div class="w-full sm:w-3/4 md:w-3/4 lg:w-1/3">
                     <div class="single-pricing">
-                        <div class="text-center pricing-header">
-                            <h5 class="sub-title">Basic</h5>
-                            <span class="price">$ 199</span>
-                            <p class="year">per year</p>
-                        </div>
-                        <div class="mb-8 pricing-list">
-                            <ul>
-                                <li><i class="lni-check-mark-circle"></i> Carefully crafted components</li>
-                                <li><i class="lni-check-mark-circle"></i> Amazing page examples</li>
-                                <li><i class="lni-check-mark-circle"></i> Super friendly support team</li>
-                                <li><i class="lni-check-mark-circle"></i> Awesome Support</li>
-                            </ul>
-                        </div>
+                       
                         <div class="text-center pricing-btn">
-                            <a class="main-btn" href="javascript:void(0)">GET STARTED</a>
+                            <!-- <a class="main-btn" href="javascript:void(0)">Plomberie générale</a> -->
+                            <p class="cards__content">Plomberie générale</p>
                         </div>
-                        <div class="bottom-shape">
-                            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 112.35"><defs><style>.color-1{fill:#2bdbdc;isolation:isolate;}.cls-1{opacity:0.1;}.cls-2{opacity:0.2;}.cls-3{opacity:0.4;}.cls-4{opacity:0.6;}</style></defs><title>bottom-part1</title><g id="bottom-part"><g id="Group_747" data-name="Group 747"><path id="Path_294" data-name="Path 294" class="cls-1 color-1" d="M0,24.21c120-55.74,214.32,2.57,267,0S349.18,7.4,349.18,7.4V82.35H0Z" transform="translate(0 0)"/><path id="Path_297" data-name="Path 297" class="cls-2 color-1" d="M350,34.21c-120-55.74-214.32,2.57-267,0S.82,17.4.82,17.4V92.35H350Z" transform="translate(0 0)"/><path id="Path_296" data-name="Path 296" class="cls-3 color-1" d="M0,44.21c120-55.74,214.32,2.57,267,0S349.18,27.4,349.18,27.4v74.95H0Z" transform="translate(0 0)"/><path id="Path_295" data-name="Path 295" class="cls-4 color-1" d="M349.17,54.21c-120-55.74-214.32,2.57-267,0S0,37.4,0,37.4v74.95H349.17Z" transform="translate(0 0)"/></g></g></svg>
-                        </div>
+                        
                     </div> <!-- single pricing -->
                 </div>
                 
                 <div class="w-full sm:w-3/4 md:w-3/4 lg:w-1/3">
                     <div class="single-pricing pro">
-                        <div class="absolute top-0 right-0 w-40 -mr-20 pricing-baloon">
-                            <img src="assets/images/baloon.svg" alt="baloon">
-                        </div>
-                        <div class="pricing-header">
-                            <h5 class="sub-title">Pro</h5>
-                            <span class="price">$ 399</span>
-                            <p class="year">per year</p>
-                        </div>
-                        <div class="mb-8 pricing-list">
-                            <ul>
-                                <li><i class="lni-check-mark-circle"></i> Carefully crafted components</li>
-                                <li><i class="lni-check-mark-circle"></i> Amazing page examples</li>
-                                <li><i class="lni-check-mark-circle"></i> Super friendly support team</li>
-                                <li><i class="lni-check-mark-circle"></i> Awesome Support</li>
-                            </ul>
-                        </div>
+                        
                         <div class="text-center pricing-btn">
-                            <a class="main-btn" href="javascript:void(0)">GET STARTED</a>
+                            <p class="cards__content">Salle de bain</p>
+                            <!-- <a class="main-btn" href="javascript:void(0)">GET STARTED</a> -->
                         </div>
                         <div class="bottom-shape">
                             <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 112.35"><defs><style>.color-2{fill:#0067f4;isolation:isolate;}.cls-1{opacity:0.1;}.cls-2{opacity:0.2;}.cls-3{opacity:0.4;}.cls-4{opacity:0.6;}</style></defs><title>bottom-part1</title><g id="bottom-part"><g id="Group_747" data-name="Group 747"><path id="Path_294" data-name="Path 294" class="cls-1 color-2" d="M0,24.21c120-55.74,214.32,2.57,267,0S349.18,7.4,349.18,7.4V82.35H0Z" transform="translate(0 0)"/><path id="Path_297" data-name="Path 297" class="cls-2 color-2" d="M350,34.21c-120-55.74-214.32,2.57-267,0S.82,17.4.82,17.4V92.35H350Z" transform="translate(0 0)"/><path id="Path_296" data-name="Path 296" class="cls-3 color-2" d="M0,44.21c120-55.74,214.32,2.57,267,0S349.18,27.4,349.18,27.4v74.95H0Z" transform="translate(0 0)"/><path id="Path_295" data-name="Path 295" class="cls-4 color-2" d="M349.17,54.21c-120-55.74-214.32,2.57-267,0S0,37.4,0,37.4v74.95H349.17Z" transform="translate(0 0)"/></g></g></svg>
@@ -248,24 +224,10 @@
                 
                 <div class="w-full sm:w-3/4 md:w-3/4 lg:w-1/3">
                     <div class="single-pricing enterprise">
-                        <div class="absolute top-0 left-0 w-32 mt-3 ml-3 pricing-flower">
-                            <img src="assets/images/flower.svg" alt="flower">
-                        </div>
-                        <div class="text-right pricing-header">
-                            <h5 class="sub-title">Enterprise</h5>
-                            <span class="price">$ 799</span>
-                            <p class="year">per year</p>
-                        </div>
-                        <div class="mb-8 pricing-list">
-                            <ul>
-                                <li><i class="lni-check-mark-circle"></i> Carefully crafted components</li>
-                                <li><i class="lni-check-mark-circle"></i> Amazing page examples</li>
-                                <li><i class="lni-check-mark-circle"></i> Super friendly support team</li>
-                                <li><i class="lni-check-mark-circle"></i> Awesome Support</li>
-                            </ul>
-                        </div>
+                       
                         <div class="text-center pricing-btn">
-                            <a class="main-btn" href="javascript:void(0)">GET STARTED</a>
+                         
+                            <p class="cards__content">Sauna & Hammam</p>
                         </div>
                         <div class="bottom-shape">
                             <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 112.35"><defs><style>.color-3{fill:#4da422;isolation:isolate;}.cls-1{opacity:0.1;}.cls-2{opacity:0.2;}.cls-3{opacity:0.4;}.cls-4{opacity:0.6;}</style></defs><title>bottom-part1</title><g id="bottom-part"><g id="Group_747" data-name="Group 747"><path id="Path_294" data-name="Path 294" class="cls-1 color-3" d="M0,24.21c120-55.74,214.32,2.57,267,0S349.18,7.4,349.18,7.4V82.35H0Z" transform="translate(0 0)"/><path id="Path_297" data-name="Path 297" class="cls-2 color-3" d="M350,34.21c-120-55.74-214.32,2.57-267,0S.82,17.4.82,17.4V92.35H350Z" transform="translate(0 0)"/><path id="Path_296" data-name="Path 296" class="cls-3 color-3" d="M0,44.21c120-55.74,214.32,2.57,267,0S349.18,27.4,349.18,27.4v74.95H0Z" transform="translate(0 0)"/><path id="Path_295" data-name="Path 295" class="cls-4 color-3" d="M349.17,54.21c-120-55.74-214.32,2.57-267,0S0,37.4,0,37.4v74.95H349.17Z" transform="translate(0 0)"/></g></g></svg>

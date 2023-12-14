@@ -1,0 +1,68 @@
+/* .cards {
+    background: red;
+} */
+.cards > div:first-child .single-pricing {
+    height: 500px;
+    background: url('/assets/images/img_plomberie.JPEG');
+    background-size: cover;
+}
+
+.cards > div:nth-child(2) .single-pricing {
+    height: 500px;
+    background: url('/assets/images/img_evier.JPEG');
+    background-size: cover;
+}
+.cards > div:nth-child(3) .single-pricing {
+    height: 500px;
+    /* background: url('/assets/images/img_saunabox.jpg');
+    background-size: cover; */
+}
+
+
+.single-pricing {
+    height: 100%;
+}
+
+.cards:nth-child(3) .single-pricing {
+    height: 100%;
+    background-color: rgb(136, 255, 0);
+}
+
+.cards:nth-child(1) .single-pricing .cards__content,
+.cards:nth-child(2) .single-pricing .cards__content,
+.cards:nth-child(3) {
+    position: absolute;
+    bottom: 0rem;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+#home {
+    background-image: url('/assets/images/bg__main.JPEG');
+    background-size: cover;
+}
+
+
+/* NAV */
+.page-scroll {
+    color: rgb(0, 183, 255);
+}
+
+.image img {
+    width: 300px;
+    height: 300px;
+}
+
+/* FOOTER */
+.footer-title {
+    color: rgb(236, 236, 236);
+}
+
+.footer-link ul li a {
+    color: rgb(236, 236, 236);
+}
+
+.footer-link ul li a:hover {
+    color: rgb(0, 183, 255);
+}
